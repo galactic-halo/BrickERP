@@ -1,0 +1,71 @@
+/* Estilo general */
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+/* Barra de menú */
+QMenuBar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 4px;
+}
+
+QMenuBar::item {
+    background-color: #2c3e50;
+    color: white;
+    padding: 4px 8px;
+}
+
+QMenuBar::item:selected {
+    background-color: #34495e;
+}
+
+/* Botones */
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed {
+    background-color: #1c6ea4;
+}
+
+/* Wizard */
+QWizardPage {
+    background-color: white;
+}
+
+/* Campos de entrada */
+QLineEdit, QComboBox, QDateEdit, QSpinBox, QDoubleSpinBox {
+    padding: 6px;
+    border: 1px solid #bdc3c7;
+    border-radius: 3px;
+    background-color: white;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #3498db;
+}
+
+/* Tablas */
+QTableView {
+    background-color: white;
+    alternate-background-color: #f9f9f9;
+    selection-background-color: #3498db;
+    gridline-color: #ecf0f1;
+}
+
+QHeaderView::section {
+    background-color: #ecf0f1;
+    padding: 6px;
+    border: none;
+    font-weight: bold;
+}
